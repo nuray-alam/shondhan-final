@@ -21,9 +21,7 @@ function App() {
               <img src={logo} alt="" />
               <h1>Shondhan</h1>
             </div>
-
           </div>
-
           <nav>
             <Link to="/home">Home</Link>
             <Link to="/blood_donors">Blood Donors</Link>

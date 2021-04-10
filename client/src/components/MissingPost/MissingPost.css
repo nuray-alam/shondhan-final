@@ -1,0 +1,20 @@
+.missing-post {
+  margin: 30px 10px;
+  padding: 20px 20px;
+  background-color: rgb(236, 175, 134);
+  width: 250px;
+  text-align: center;
+}
+.missing-post img {
+  width: 200px;
+  height: 200px;
+}
+#delete-button {
+  width: 150px;
+  height: 50px;
+  background-color: tomato;
+  font-weight: bolder;
+}
+#delete-button:hover {
+  background-color: gray;
+}

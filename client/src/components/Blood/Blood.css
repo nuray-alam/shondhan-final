@@ -1,0 +1,42 @@
+.donar-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.new-donar-button {
+  text-align: center;
+  margin-top: 50px;
+}
+.new-donar-button button {
+  height: 40px;
+  width: 150px;
+}
+.new-donar-button button:hover {
+  background-color: rgb(255, 149, 149);
+}
+
+.donar-form {
+  text-align: center;
+  display: none;
+}
+.donar-form input {
+  width: 300px;
+}
+
+#submit-button {
+  width: 150px;
+  height: 40px;
+  background-color: yellow;
+}
+#submit-button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+#show-all-button {
+  text-align: center;
+  margin: 10px auto;
+}
+#show-all-button button {
+  width: 150px;
+  height: 50px;
+}
